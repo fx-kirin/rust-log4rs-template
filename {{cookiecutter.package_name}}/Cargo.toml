@@ -1,0 +1,11 @@
+[package]
+name = "{{cookiecutter.package_name}}"
+version = "{{cookiecutter.package_version}}"
+authors = ["{{cookiecutter.author_name}}<{{cookiecutter.author_email}}>"]
+edition = "{{cookiecutter.edition}}"
+description = "{{cookiecutter.package_description}}"
+
+[dependencies]
+log = "*"
+log4rs = {git="https://github.com/sfackler/log4rs"}
+fs_extra = "*"

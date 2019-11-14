@@ -1,0 +1,9 @@
+{
+    "author_name": "fx-kirin",
+    "author_email": "fx.kirin@gmail.com",
+
+    "package_name": "package_name",
+    "package_version": "0.1.0",
+    "package_description": "",
+    "edition": "2018"
+}
