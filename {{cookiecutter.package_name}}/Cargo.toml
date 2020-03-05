@@ -9,3 +9,6 @@ description = "{{cookiecutter.package_description}}"
 log = "*"
 log4rs = {git="https://github.com/sfackler/log4rs"}
 fs_extra = "*"
+
+[build-dependencies]
+fs_extra = "*"
