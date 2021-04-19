@@ -1,5 +1,6 @@
 #[cfg(test)]
 mod tests {
+    use std::path::{Path, PathBuf};
     fn find_log_config_directory<'a>(exe_path: &'a PathBuf) -> &'a Path {
         let mut exe_path: &std::path::Path = exe_path;
         loop {
@@ -16,7 +17,7 @@ mod tests {
 
     #[test]
     fn it_works() {
-        let exe_path = match env::current_exe() {
+        let exe_path = match std::env::current_exe() {
             Ok(exe_path) => exe_path,
             Err(e) => panic!("failed to get current exe path: {}", e),
         };
