@@ -1,3 +1,5 @@
+extern crate {{cookiecutter.package_name}};
+
 #[cfg(test)]
 mod tests {
     use std::path::{Path, PathBuf};
